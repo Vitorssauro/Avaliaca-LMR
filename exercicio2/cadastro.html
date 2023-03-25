@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Faça seu Cadastro</h1>
+    <hr>
+        <div class="cadastro">
+            <label for="nome">Nome Completo:</label><br>
+            <input type="text" placeholder="  Nome Completo"><br><br>
+            <label for="rg">RG:</label><br>
+            <input type="text" placeholder="  00.000.000-0"><br><br>
+            <label for="pai">Pai:</label><br>
+            <input type="text" placeholder="  Nome do Pai"><br><br>
+            Escolaridade:<br><select name="escolaridade">
+                <option value="select"> Selecionar</option>
+                <option value="fundamental"> Fundamental</option>
+                <option value="medio"> Ensino Médio</option>
+                <option value="Superior"> Superior</option>
+            </select><br><br>
+            <label for="tel">Telefone:</label><br>
+            <input type="text" placeholder="  00 00000-0000"><br><br>
+            <label for="email">E-mail:</label><br>
+            <input type="text" placeholder="  exemplo@email.com"><br><br>
+        </div>
+        <input type="submit" value="Cadastrar">
+        <input type="reset" value="Limpar Dados"><br><br>
+        <input type="button" value="Voltar" onclick="parent.location='index.html'">
+</body>
+
+</html>
